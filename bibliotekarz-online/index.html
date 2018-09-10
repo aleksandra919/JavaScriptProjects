@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bibliotekarz online</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--
+1. Znajdz wszystkie ksiazki wydane w roku 2005, 1992, 2007(3 rozne wyniki
+2. Znajdz wszystkie ksiazki wydane od 2011 - 2015
+3. Znajdz wszystkie ksiazki Bruce'a Eckel'a Dana Browna i Stephene Kinga
+4. Daj mozliwosc uzytkownikowi na dodanie nowej ksiazki. Musi zawierac wszystkie atrybuty
+5. Znajdz wszystkie ksiazki o podanym tytule
+6. Znajdz wszystkie ksiazki Zawierajace podana fraze w tytule
+7. Usun z tablicy ksiazke o podanym tytule lub podanego autora lub wsztstkie ksiazki z danego roku
+8. Sortowanie wedlug tytulu, roku, autora. Kazde to osobna funkcja. Napisz swoj algorytm oaz uzyj funkcji sort() na tablicach
+
+Wymagania:
+- operacje dodawania i usuwania maja zwrocic nowa tablice
+- w przypadku braku wyniku ma zostac zwrocona pusta tablica
+-->
+<div class='task'>
+  <h3>Zadanie 1: Znajdz wszystkie ksiazki wydane w roku 2005, 1992, 2007</h3>
+  <div id="task1"></div>
+</div>
+<hr>
+
+<div class='task'>
+  <h3>Zadanie 2: Znajdz wszystkie ksiazki wydane od 2011 - 2015</h3>
+  <div id="task2"></div>
+</div>
+<hr>
+
+<div class='task'>
+  <h3>Zadanie 3: Znajdz wszystkie ksiazki Bruce'a Eckel'a Dana Browna i Stephene Kinga</h3>
+  <div id="task3"></div>
+</div>
+<hr>
+
+<div class='task'>
+  <h3>Zadanie 4: Daj mozliwosc uzytkownikowi na dodanie nowej ksiazki. Musi zawierac wszystkie atrybuty</h3>
+  <form id="myForm">
+    <div>
+      <label for="title">Title:</label>
+      <input type="text" name="title" id="title" required>
+    </div>
+
+    <div>
+      <label for="year">Year:</label>
+      <input type="number" name="year" id="year" required>
+    </div>
+
+    <div>
+      <label for="author">Author:</label>
+      <input type="text" name="author" id="author" required>
+    </div>
+
+    <div>
+      <button type="submit" id="task4Btn">Zapisz</button>
+    </div>
+  </form>
+  <div id="task4"></div>
+</div>
+<hr>
+
+<div class='task'>
+  <h3>Zadanie 5: Znajdz wszystkie ksiazki o podanym tytule</h3>
+  <p>Szukaj po tytule ksiazki</p>
+  <input type="text" id="searchTitle">
+  <button id="task5Btn">Szukaj</button>
+  <div id="task5"></div>
+</div>
+<hr>
+
+<div class='task'>
+  <h3>Zadanie 6: Znajdz wszystkie ksiazki zawierajace podana fraze w tytule</h3>
+  <p>Rozwiazanie moze byc takie samo jak w punkcie 5</p>
+</div>
+<hr>
+
+<div class='task'>
+  <h3>Zadanie 7: Usuń książkę</h3>
+  <form id="deleteForm">
+    <div>
+      <label for="deleteTitle">Podaj tytul:</label>
+      <input type="text" name="deleteTitle" id="deleteTitle">
+    </div>
+
+    <div>
+      <label for="deleteYear">Podaj rok:</label>
+      <input type="number" name="deleteYear" id="deleteYear">
+    </div>
+
+    <div>
+      <label for="deleteAuthor">Podaj autora:</label>
+      <input type="text" name="deleteAuthor" id="deleteAuthor">
+    </div>
+
+    <button id="task7Btn">Usun</button>
+   </form>
+</div>
+<hr>
+   
+<div class='task'>
+  <h3>Zadanie 8: Sortowanie wedlug tytulu, roku, autora.</h3>
+  <button id="sortYear">Sortuj po dacie wydania</button>
+  <button id="sortAuthor">Sortuj po autorze</button>
+  <button id="sortTitle">Sortuj po tytule</button>
+  <div id="task8"></div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

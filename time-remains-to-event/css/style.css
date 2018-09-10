@@ -1,0 +1,23 @@
+html,
+body {
+ height: 100%;
+}
+
+.content {
+ height: 100%;
+ color: white;
+ background-image: url('https://images.pexels.com/photos/325807/pexels-photo-325807.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+ display: flex;
+ align-items: center;
+}
+
+.info {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+ 

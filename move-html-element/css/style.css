@@ -1,0 +1,42 @@
+body {
+  margin: 3%;
+  background-color: #DDDDDD;
+  font-family: 'Nobile', cursive;
+}
+
+#axis {
+border: 3px solid #3D9970;
+position: absolute;
+backgrund-color: #73AD21;
+width: 30px;
+height: 30px;
+top: 45%;
+left: 15%;
+}
+
+#axis {
+float: left;
+transition: all 1s ease-in;
+-webkit-transition: all 1s ease-in;
+-moz-transition: all 1s ease-in;
+-o-transition: all 1s ease-in;
+}
+
+h3 {
+font-weight:bold;
+color: #3D9970;
+}
+
+button {
+  background-color: #3D9970;
+  width: 80px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  border: 4px white silver;
+  border-radius: 20%;
+  box-shadow: 4px 4px #999;
+}
+button:hover {
+  transform: scale(1.2, 1.2); 
+}

@@ -1,0 +1,40 @@
+body {
+  color: #565656;
+  margin: 0 20px auto;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+h3 {
+  color: #76323f;
+}
+
+.task {
+  padding: 10px;
+}
+
+input {
+  width: 300px
+}
+
+div.lable {
+  width: 300px;
+  height:300px
+}
+
+#myForm div, #deleteForm div {
+  padding: 3px;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: #c09f80; 
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #76323f; 
+   transform: scale(1.2);
+}
