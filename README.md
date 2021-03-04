@@ -1,17 +1,18 @@
-# JavaScriptProjects
+# JavaScript practice
 
 1. Online library
-  -szukanie ksiązek wydanych w podanych latach
-  -szukanie po autorze, tytule
-  -dodawanie nowej ksiazki przez uzytkownika
-  -usuniecie ksiazek z tablicy
-  -sortowanie ksiazek  
+ - seraching books in range of years
+ - searching by author or title
+ - adding new book
+ - deleting book
+ - sorting books
+
   
 2. Clousure
 3. Check if number is narcissistic
 4. Check if string is palindrom
 5. Change color of text if you click on the button (+ tooltip)
 6. Move html element on squiggle path
-7. Male zadania [zdarzenia np onlick, wyszukiwanie lementu po id, addEventListener, RemoveEventListener]
-8. Time remains to event - odlicza czas do danego eventu [date object]
-9. Timer - odlicza sekundy od podanej przez uzytkownika ilosci sekund [setInterval]
+7. Exercises to practise event 'onclick', addEventListener, RemoveEventListener
+8. Time remains to event [date object]
+9. Countdown time [setInterval]
